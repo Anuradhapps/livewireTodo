@@ -1,12 +1,12 @@
-<div class="container content py-2 mx-auto">
+<div class="container content py-1 mx-auto">
     <div class="mx-auto  border-blue-500 border-t-2">
-        <div id="create-form" class="hover:shadow-lg p-4 bg-white mt-2">
+        <div id="create-form" class="hover:shadow-lg px-3 pb-3 bg-white mt-1">
             <div class="flex ">
                 <h2 class="font-semibold text-lg text-gray-800">Create New Todo</h2>
             </div>
             <div>
                 <form>
-                    <div class="mb-6">
+                    <div class="mb-3">
                         <label for="name" class="block text-sm font-medium text-gray-900 dark:text-white">*
                             Todo </label>
                         <input wire:model='name' type="text" id="name" placeholder="Todo.."

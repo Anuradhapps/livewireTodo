@@ -1,3 +1,3 @@
-<x-layout-app>
-<h1>hekoo</h1>
-</x-layout-app>
+<x-app>
+    @livewire('todo-list')
+</x-app>
